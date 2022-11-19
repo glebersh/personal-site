@@ -1,0 +1,29 @@
+.header__main-logo {
+  font-family: 'Syne Mono', monospace;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+
+.header__nav-menu {
+  margin-right: 5em;
+}
+
+.header__nav-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  list-style: none;
+}
+
+.header__nav-list-item:not(first-of-type) {
+  margin-left: 1em;
+  font-size: 1.5em;
+  font-weight: 700;
+}
