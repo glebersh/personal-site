@@ -1,0 +1,27 @@
+.home-page__about-title {
+  font-family: 'Syne Mono', monospace;
+  margin: 0;
+  padding: 0;
+  font-size: 1.75em;
+  margin-left: 7em;
+}
+
+.home-page__about-description {
+  padding: 0;
+  width: 60%;
+  margin: 2em 0 0 7em;
+  font-size: 18px;
+}
+
+.bi-slash-lg:last-of-type {
+  margin-left: -.5em;
+}
+
+.home-page__projects-title {
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: 'Syne Mono', monospace;
+  margin: 3em 0 0;
+  padding: 0;
+  font-size: 1.25em;
+}

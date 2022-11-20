@@ -7,7 +7,7 @@
 }
 
 .header__nav-menu {
-  margin-right: 10em;
+  margin-right: 3em;
 }
 
 .header__nav-list {
@@ -47,7 +47,7 @@
 }
 
 .bi-lightbulb-off,
-.bi-lightbulb,
+.bi-lightbulb-fill,
 .bi-menu-button-wide {
   font-size: 24px;
 }
