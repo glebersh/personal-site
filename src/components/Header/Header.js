@@ -34,13 +34,13 @@ const Header = () => {
           <i class="bi bi-menu-button-wide"></i>
           <li className={activeLink === 'link-1' ? 'header__nav-list-item active' : 'header__nav-list-item'}
             id='link-1'
-            onClick={(e) => setActiveLink(e.target.id)}><NavLink to='/'>Home</NavLink></li>
+            onClick={(e) => setActiveLink(e.target.id)}><NavLink to='/personal-site'>Home</NavLink></li>
           <li className={activeLink === 'link-2' ? 'header__nav-list-item active' : 'header__nav-list-item'}
             id='link-2'
-            onClick={(e) => setActiveLink(e.target.id)}><NavLink to='/projects'>Projects</NavLink></li>
+            onClick={(e) => setActiveLink(e.target.id)}><NavLink to='projects'>Projects</NavLink></li>
           <li className={activeLink === 'link-3' ? 'header__nav-list-item active' : 'header__nav-list-item'}
             id='link-3'
-            onClick={(e) => setActiveLink(e.target.id)}><NavLink to='/about'>About</NavLink></li>
+            onClick={(e) => setActiveLink(e.target.id)}><NavLink to='about'>About</NavLink></li>
         </ul>
       </nav>
     </Flex >
