@@ -1,12 +1,19 @@
 import React from 'react';
-import Header from '../Header';
+import Gallery from '../Gallery/';
 import './App.css';
+
+import { Route, Routes } from 'react-router-dom';
+import Layout from '../Layout';
 
 const App = () => {
 
   return (
     <>
-      <Header />
+      <Routes>
+        <Route path='personal-site/' element={<Layout />}>
+          <Route index element={<Gallery />} />
+        </Route>
+      </Routes>
     </>
   )
 };

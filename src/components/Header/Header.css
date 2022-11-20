@@ -2,12 +2,12 @@
   font-family: 'Syne Mono', monospace;
   margin: 0;
   padding: 0;
-  font-size: 1.5em;
+  font-size: 1.75em;
   margin-left: 1em;
 }
 
 .header__nav-menu {
-  margin-right: 5em;
+  margin-right: 10em;
 }
 
 .header__nav-list {
@@ -26,4 +26,28 @@
   margin-left: 1em;
   font-size: 1.5em;
   font-weight: 700;
+}
+
+.header__nav-list-item {
+  transition: 0.33s;
+}
+
+.header__nav-list-item:hover {
+  cursor: pointer;
+  color: rgb(154, 228, 43);
+}
+
+.header__nav-list-item:active {
+  transform: scale(0.95, 0.95);
+}
+
+.active {
+  color: rgb(154, 228, 43);
+  text-decoration: underline;
+}
+
+.bi-lightbulb-off,
+.bi-lightbulb,
+.bi-menu-button-wide {
+  font-size: 24px;
 }

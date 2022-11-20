@@ -1,0 +1,17 @@
+.footer-link {
+  color: white;
+  font-size: 24px;
+  transition: 0.33s ease-in-out;
+  text-decoration: none;
+}
+
+
+.footer-link:hover {
+  color: rgb(196, 196, 196);
+  cursor: pointer;
+}
+
+.footer-link:active {
+  color: rgb(154, 228, 43);
+  transform: scale(0.95, 0.95);
+}
