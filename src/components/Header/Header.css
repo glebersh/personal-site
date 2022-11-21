@@ -33,6 +33,7 @@
 }
 
 .header__nav-list-item:hover {
+  transition: 0.33s;
   cursor: pointer;
   color: rgb(154, 228, 43);
 }

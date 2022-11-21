@@ -1,14 +1,17 @@
 import { Box, Button, Flex, Image } from '@chakra-ui/react';
 import React from 'react';
-import './About.css';
-
+import './AboutPage.css';
+import ReactTypingEffect from 'react-typing-effect';
 
 const About = () => {
   return (
     <Box mt='5em'>
 
       <Box>
-        <h2 className='about-page__title'>About me
+        <h2 className='page__title'>
+          <ReactTypingEffect
+            text={["About me"]} speed={100} typingDelay={500} eraseDelay={10000}
+          />
           <i className='bi bi-slash-lg'></i>
           <i className='bi bi-slash-lg'></i>
         </h2>
@@ -27,7 +30,7 @@ const About = () => {
       </Box>
 
       <Box mt='3em'>
-        <h2 className='about-page__title'>My skills
+        <h2 className='page__title'>My skills
           <i className='bi bi-slash-lg'></i>
           <i className='bi bi-slash-lg'></i>
         </h2>
@@ -55,7 +58,7 @@ const About = () => {
         </ul>
       </Box>
       <Box mt='3em'>
-        <h2 className='about-page__title'>Contact me
+        <h2 className='page__title'>Contact me
           <i className='bi bi-slash-lg'></i>
           <i className='bi bi-slash-lg'></i>
         </h2>

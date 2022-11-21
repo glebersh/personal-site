@@ -1,4 +1,18 @@
-.githubPages-SVG {
-  fill: white;
-  width: 120px;
+.card-git-icon {
+  transition: 0.55s;
+  font-size: 20px;
+}
+
+.card-git-icon:hover {
+  transition: 0.55s;
+  color: rgb(154, 228, 43);
+}
+
+.card-git-icon:active {
+  transform: scale(0.95, 0.95);
+}
+
+.githubpages-link:hover {
+  transition: 0.55s;
+  color: rgb(154, 228, 43);
 }
