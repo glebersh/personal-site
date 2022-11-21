@@ -7,6 +7,7 @@ import { Card, Stack, CardBody, Divider, Heading } from '@chakra-ui/react';
 import todoApp_light_mode from '../../images/todoApp_light_mode.jpg';
 import nasaApp_dark_mode from '../../images/nasaApp_dark_mode.png';
 import estateLanding from '../../images/estateLanding.png';
+import { Link } from 'react-router-dom';
 
 export const cardGHPagesLink = (<Tooltip label='GitHub pages demo'>
   <span className='githubpages-link'>
@@ -20,6 +21,8 @@ export const cardGitRepoLink = (<Tooltip label='GitHub repository'>
   <i className="bi bi-github card-git-icon"></i>
 </Tooltip>)
 
+
+
 const Gallery = () => {
 
   return (
@@ -29,7 +32,6 @@ const Gallery = () => {
         align='center'
         justify='center'
         flexWrap='wrap' gap='3em'>
-
 
         <Card maxW='lg' bgColor='inherit'>
           <CardBody>
@@ -48,7 +50,7 @@ const Gallery = () => {
           <Divider />
           <CardFooter justify='space-between'
             flexWrap='wrap' align='center'>
-            <a>Learn more about this project</a>
+            <Link to='projects'>Learn more about this project</Link>
             <Box ml='auto'>
               <a href='https://github.com/glebersh/Simple-TO-DO-application-with-reduxjs-toolkit'
                 rel='no-refferer' target='_blank'>
@@ -76,13 +78,16 @@ const Gallery = () => {
           <Divider />
           <CardFooter justify='space-between'
             flexWrap='wrap' align='center'>
-            <a>Learn more about this project</a>
+            <Link to='projects'>Learn more about this project</Link>
             <Box ml='auto'>
               <a href='https://github.com/glebersh/NASA-Daily-Image-App'
                 rel='no-refferer' target='_blank'>
                 {cardGitRepoLink}
               </a>
-              {cardGHPagesLink}
+              <a href='https://glebersh.github.io/NASA-Daily-Image-App/'
+                rel='no-refferer' target='_blank'>
+                {cardGHPagesLink}
+              </a>
             </Box>
           </CardFooter>
         </Card>
@@ -104,7 +109,7 @@ const Gallery = () => {
           <Divider />
           <CardFooter justify='space-between'
             flexWrap='wrap' align='center'>
-            <a>Learn more about this project</a>
+            <Link to='projects'>Learn more about this project</Link>
             <Box ml='auto'>
               <a href='https://github.com/glebersh/Greenhouse-Estate-Landing-Page'
                 rel='no-refferer' target='_blank'>

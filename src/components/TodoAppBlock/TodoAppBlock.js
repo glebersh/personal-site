@@ -1,13 +1,12 @@
 import { Flex, Image, Box, useColorMode } from '@chakra-ui/react';
 import React, { useEffect, useState } from 'react'
-import './Projects-item.css';
+import './TodoAppBlock.css';
 
 
 import { ArrowBackIcon, ArrowForwardIcon } from '@chakra-ui/icons';
 
 
-const ProjectsItem = ({ imgsURL, order }) => {
-
+const TodoAppBlock = ({ imgsURL }) => {
   const [imgIndex, setImgIndex] = useState(0);
   useEffect(() => {
     setImgIndex(0)
@@ -21,8 +20,8 @@ const ProjectsItem = ({ imgsURL, order }) => {
   }
 
   return (
-    <Flex mt='3em'>
-      <Flex align='center'>
+    <Flex m='3em auto 0' w='90%' justify='space-between'>
+      <Flex align='center' order={0} gap='1em'>
         <ArrowBackIcon fontSize='3em'
           onClick={() => setImgIndex(imgIndex - 1)}
           transition='0.33s'
@@ -39,10 +38,6 @@ const ProjectsItem = ({ imgsURL, order }) => {
             color: 'rgb(154, 228, 43)'
           }} _active={{ transform: 'scale(0.95,0.95)' }} />
       </Flex>
-
-
-
-
       <p className='projects-page__pojects-description'>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -56,4 +51,4 @@ const ProjectsItem = ({ imgsURL, order }) => {
   )
 };
 
-export default ProjectsItem;
+export default TodoAppBlock;

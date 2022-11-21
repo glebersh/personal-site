@@ -1,16 +1,21 @@
 import React from 'react';
 import './ProjectsPage.css';
 
-import ProjectsItem from '../../Projects-item';
+import TodoAppBlock from '../../TodoAppBlock';
 import ReactTypingEffect from 'react-typing-effect';
 import { Box } from '@chakra-ui/react';
 
 import todoApp_light_mode from '../../../images/todoApp_light_mode.jpg';
-import nasaApp_dark_mode from '../../../images/nasaApp_dark_mode.png';
-import estateLanding from '../../../images/estateLanding.png';
+import NASA_daily_img1 from '../../../images/NASA_daily_img1.png';
+import NASA_daily_img2 from '../../../images/NASA_daily_img2.png';
+import NASA_daily_img3 from '../../../images/NASA_daily_img3.png';
+import estateLanding_img2 from '../../../images/estateLanding.png';
+import estateLanding_img1 from '../../../images/estateLanding_2.png';
+import estateLanding_img3 from '../../../images/estateLanding_3.png';
 
 const ProjectsPage = () => {
-  const images = [todoApp_light_mode, nasaApp_dark_mode, estateLanding];
+  const images = [estateLanding_img1, estateLanding_img2, estateLanding_img3];
+  const nasaAppImgs = [NASA_daily_img1, NASA_daily_img2, NASA_daily_img3];
   return (
     <Box mt='5em'>
       <h2 className='page__title'>
@@ -20,7 +25,12 @@ const ProjectsPage = () => {
         <i className='bi bi-slash-lg'></i>
         <i className='bi bi-slash-lg'></i>
       </h2>
-      <ProjectsItem order={0} imgsURL={images} />
+      <h3 className='home-page__projects-title'>
+        <i className='bi bi-dash'></i>
+        ToDo App
+        <i className='bi bi-dash'></i>
+      </h3>
+      <TodoAppBlock order={0} imgsURL={nasaAppImgs} />
     </Box>
   )
 };
