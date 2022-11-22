@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/personal-site/static/css/main.ae368de5.css",
-    "main.js": "/personal-site/static/js/main.160589b8.js",
+    "main.css": "/personal-site/static/css/main.1c5fd676.css",
+    "main.js": "/personal-site/static/js/main.9b87173b.js",
+    "static/media/estateLanding_2.png": "/personal-site/static/media/estateLanding_2.7f3d250df2922cfd08bd.png",
+    "static/media/nasaApp_dark_mode.png": "/personal-site/static/media/nasaApp_dark_mode.f539acff90b2d0afad07.png",
+    "static/media/NASA_daily_img1.png": "/personal-site/static/media/NASA_daily_img1.7e6287acaf89d1b23a65.png",
+    "static/media/NASA_daily_img2.png": "/personal-site/static/media/NASA_daily_img2.03a6a3e5e572debb62db.png",
+    "static/media/estateLanding.png": "/personal-site/static/media/estateLanding.b771391f7e734b8fb793.png",
+    "static/media/NASA_daily_img3.png": "/personal-site/static/media/NASA_daily_img3.68dfe7290be68eb5055c.png",
+    "static/media/todoApp_light_mode_2.jpg": "/personal-site/static/media/todoApp_light_mode_2.7fa834b8a97c6314f952.jpg",
+    "static/media/estateLanding_3.png": "/personal-site/static/media/estateLanding_3.77d3117eef4b10e40593.png",
+    "static/media/todoApp_dark_mode.png": "/personal-site/static/media/todoApp_dark_mode.90cc99c4f3bb2e4d1d89.png",
+    "static/media/todoApp_light_mode_1.png": "/personal-site/static/media/todoApp_light_mode_1.6da5d775a759876a0bfc.png",
     "index.html": "/personal-site/index.html",
-    "main.ae368de5.css.map": "/personal-site/static/css/main.ae368de5.css.map",
-    "main.160589b8.js.map": "/personal-site/static/js/main.160589b8.js.map"
+    "main.1c5fd676.css.map": "/personal-site/static/css/main.1c5fd676.css.map",
+    "main.9b87173b.js.map": "/personal-site/static/js/main.9b87173b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae368de5.css",
-    "static/js/main.160589b8.js"
+    "static/css/main.1c5fd676.css",
+    "static/js/main.9b87173b.js"
   ]
 }
