@@ -1,10 +1,10 @@
-import { CardFooter, Flex, Image, Text, Box, createIcon, Tooltip } from '@chakra-ui/react';
+import { CardFooter, Flex, Image, Text, Box, Tooltip } from '@chakra-ui/react';
 import React from 'react';
 import './Gallery.css';
 
 import { Card, Stack, CardBody, Divider, Heading } from '@chakra-ui/react';
 
-import todoApp_light_mode from '../../images/todoApp_light_mode.jpg';
+import todoApp_light_mode from '../../images/todoApp_light_mode_2.jpg';
 import nasaApp_dark_mode from '../../images/nasaApp_dark_mode.png';
 import estateLanding from '../../images/estateLanding.png';
 import { Link } from 'react-router-dom';
@@ -56,7 +56,9 @@ const Gallery = () => {
                 rel='no-refferer' target='_blank'>
                 {cardGitRepoLink}
               </a>
-              {cardGHPagesLink}
+              <a href='https://glebersh.github.io/TO-DO-application/' target='_blank' rel='no-refferer'>
+                {cardGHPagesLink}
+              </a>
             </Box>
           </CardFooter>
         </Card>
@@ -130,37 +132,3 @@ const Gallery = () => {
 };
 
 export default Gallery;
-
-
-{/* <Image
-src={todoApp_light_mode}
-fallbackSrc='https://via.placeholder.com/500'
-              _hover={{
-                'filter': 'brightness(40%)',
-                'cursor': 'pointer'
-              }}
-transition='0.33s ease-in-out' />
-
-              <Text pos="absolute" top="25%" left="50%"
-                transform="translate(-50%,-50%)"
-                fontWeight='700'
-                fontSize='2em'
-                textAlign='center'>
-                Projects
-              </Text>
-              <Image
-                src={nasaApp_dark_mode}
-                fallbackSrc='https://via.placeholder.com/500'
-                _hover={{
-                  'filter': 'brightness(40%)',
-                  'cursor': 'pointer'
-                }}
-                transition='0.33s ease-in-out' />
-
-              <Text pos="absolute" top="75%" left="50%"
-                transform="translate(-50%,-50%)"
-                fontWeight='700'
-                fontSize='2em'
-                textAlign='center'>
-                About me
-              </Text> */}

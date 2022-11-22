@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Image } from '@chakra-ui/react';
+import { Box, Button, Flex, Image, Text } from '@chakra-ui/react';
 import React from 'react';
 import './AboutPage.css';
 import ReactTypingEffect from 'react-typing-effect';
@@ -16,15 +16,21 @@ const About = () => {
           <i className='bi bi-slash-lg'></i>
         </h2>
         <Flex directiom='row' justify='flex-start' flexWrap='wrap' align='center' gap='12em'>
-          <p className='about-page__description'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            when an unknown printer took a galley of type and scrambled it to make a type
-            specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          </p>
+          <Text w='30%' m='3em 0 0 15em' fontSize='20px'>
+            Hi, I'm Gleb and I'm 21 years old. I am engaged in web development and this site was also created by me.
+            I have been interested in programming for about a year and came here after graduating from university in a completely different
+            specialization.<br />
+            <Text m='1em 0 1em'><strong>Why did I decide to do programming and espesially frontend?</strong></Text>
+            That's because I like to create applications that the user will directly interact with.
+            I am sure that a good UI and UX is one of the foundations of a successful and popular product.
+            I am currently in the process of studying advanced technologies in this field (frameworks and libraries).<br />
+
+            <Text m='1em 0 1em'>At the moment <strong>I am looking for an internship or a junior position of a frontend developer</strong>, where I can gain new skills and knowledge,
+              as well as improve my code!</Text><br />
+
+            I hope that you are interested in this site and my portfolio in particular,
+            the necessary contacts for which you can contact me are presented at the bottom of the page, well, then I will tell you about my skills!
+          </Text>
           <Image fallbackSrc='https://via.placeholder.com/500' />
         </Flex>
       </Box>
@@ -45,7 +51,7 @@ const About = () => {
           </li>
           <li className='about-page__skills-list-item'>
             <i className="bi bi-code-square"></i>
-            <span className='skill-span'> JavaScript ES6</span>
+            <span className='skill-span'> JavaScript</span>
           </li>
           <li className='about-page__skills-list-item'>
             <i className="bi bi-code-square"></i>
@@ -56,6 +62,12 @@ const About = () => {
             <span className='skill-span'> Redux Toolkit</span>
           </li>
         </ul>
+        <Text fontSize='20px' w='60%' m='3em 0 0 10em'>I am familiar with <strong>HTML5 and CSS3</strong>, I understand the principles of semantic layout,
+          I can work with <strong>Flex and Grid and create adaptive web design</strong>. I can interact with the DOM using <strong>JavaScript</strong>,
+          perform asynchronous operations and work with promises. I can work with both <strong>React</strong> functional components through hooks,
+          and with class components and their lifecycle. I can organize application state management using <strong>Redux Toolkit</strong>,
+          and I have routing skills using <strong>React Router DOM v6. </strong>
+          I mostly use pure CSS3 in page styling, but I'm also familiar with the advantages and basics of working with <strong>CSS preprocessors (mainly SASS)</strong>.</Text>
       </Box>
       <Box mt='3em'>
         <h2 className='page__title'>Contact me

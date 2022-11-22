@@ -31,7 +31,8 @@ const Footer = () => {
           rel="noreferrer">
           <i className="bi bi-telegram"></i>
         </a>
-
+        <span className='personal-site-link'>This site also has own <a href='https://github.com/glebersh/personal-site'
+          target='_blank' rel='norefferer'>repository!</a></span>
       </Flex>
     </Box >
   )

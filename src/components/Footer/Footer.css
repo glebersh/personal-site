@@ -15,3 +15,17 @@
   color: rgb(154, 228, 43);
   transform: scale(0.95, 0.95);
 }
+
+.personal-site-link {
+  color: white;
+  margin-left: auto;
+}
+
+.personal-site-link a {
+  border-bottom: 1px solid rgb(154, 228, 43);
+  ;
+}
+
+.personal-site-link a:hover {
+  color: rgb(154, 228, 43);
+}
