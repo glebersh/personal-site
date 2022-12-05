@@ -17,8 +17,7 @@ const HomePage = () => {
 
       <p className='home-page__about-description'>
         <ReactTypingEffect
-          text={[`Welcome to my personal website! This is the home page, if you are interested in my pet projects
-           - go to the projects tab, and in the about tab you can find up-to-date information about me and my contact details.`]}
+          text={[`Welcome to my personal website! On this site, you can get acquainted with my projects and learn more about me.`]}
           speed={65} typingDelay={1500} eraseDelay={1000000}
         />
       </p>

@@ -39,14 +39,9 @@ const TodoAppBlock = ({ imgsURL }) => {
 
       <Text m='3em 0 0 8em' fontSize='20px' w='70%'>
         The following technologies were also used for this project: <strong>UI Charka</strong> was used for faster and easier creation of the user interface,
-        <strong> React Router DOM v6</strong> was used to enable "client-side routing", which also improves the user experience from using the application.
+        and<strong>  React Router DOM v6</strong> was used to enable "client-side routing", which also improves the user experience from using the application.
         User authentication was performed using <strong> Google Firebase.</strong> Adding/editing/deleting and other user actions with tasks are performed
         using fetch requests to a very simple server and a database created by <strong>JSON-Server</strong>.
-        <h4 className='stack-title'>How would I improve (and plan to) improve this project?</h4>
-        <List fontSize='18px'>
-          <ListItem m='.5em 0 0 .75em'>Allow users to specify more information when registering</ListItem>
-          <ListItem m='.5em 0 0 .75em'>Improve the design and make it more colorful, add a large number of color themes</ListItem>
-        </List>
         <Divider w='100%' m='2em 0 0 0' />
       </Text>
 

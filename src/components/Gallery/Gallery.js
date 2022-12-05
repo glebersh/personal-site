@@ -6,7 +6,7 @@ import { Card, Stack, CardBody, Divider, Heading } from '@chakra-ui/react';
 
 import todoApp_light_mode from '../../images/todoApp_light_mode_2.jpg';
 import nasaApp_dark_mode from '../../images/nasaApp_dark_mode.png';
-import estateLanding from '../../images/estateLanding.png';
+import countryWiki from '../../images/countryWiki_1.png';
 import { Link } from 'react-router-dom';
 
 export const cardGHPagesLink = (<Tooltip label='GitHub pages demo'>
@@ -73,7 +73,7 @@ const Gallery = () => {
             <Stack mt='6' spacing='3'>
               <Heading size='md'>Daily images from NASA API</Heading>
               <Text h='4em' fontWeight='700'>
-                Application, which allows you to view images of space every day and learn new information about it, as well as receive data from the long-term archive of NASA observations.
+                An application that allows you to view images of space every day and learn new information about it, as well as receive data from the long-term archive of NASA observations.
               </Text>
             </Stack>
           </CardBody>
@@ -97,14 +97,14 @@ const Gallery = () => {
         <Card maxW='lg' bgColor='inherit'>
           <CardBody>
             <Image
-              src={estateLanding}
+              src={countryWiki}
               alt='Landing screenshot'
               borderRadius='lg'
             />
             <Stack mt='6' spacing='3'>
-              <Heading size='md'>Simple Landing Page</Heading>
+              <Heading size='md'>Countries wiki</Heading>
               <Text h='4em' fontWeight='700'>
-                Simple Landing Page made with Vanilla JS, pure CSS3 and HTML5.
+                An application that allows you to learn new stuff about all countries. Made with React & Redux Toolkit.
               </Text>
             </Stack>
           </CardBody>
@@ -113,11 +113,11 @@ const Gallery = () => {
             flexWrap='wrap' align='center'>
             <Link to='projects'>Learn more about this project</Link>
             <Box ml='auto'>
-              <a href='https://github.com/glebersh/Greenhouse-Estate-Landing-Page'
+              <a href='https://github.com/glebersh/countries_wiki/'
                 rel='no-refferer' target='_blank'>
                 {cardGitRepoLink}
               </a>
-              <a href='https://glebersh.github.io/Greenhouse-Estate-Landing-Page/'
+              <a href='https://glebersh.github.io/countries_wiki/'
                 rel='no-refferer' target='_blank'>
                 {cardGHPagesLink}
               </a>

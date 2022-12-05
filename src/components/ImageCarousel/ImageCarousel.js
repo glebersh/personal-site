@@ -10,7 +10,7 @@ const ImageCarousel = ({ imgsURL, order }) => {
     setImgIndex(0)
   }, []);
 
-  if (imgIndex > 2) {
+  if (imgIndex > imgsURL.length - 1) {
     setImgIndex(0);
   }
   else if (imgIndex < 0) {

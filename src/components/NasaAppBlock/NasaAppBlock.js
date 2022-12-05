@@ -38,10 +38,6 @@ const NasaAppBlock = ({ imgsURL }) => {
 
       <Text m='3em 0 0 8em' fontSize='20px' w='70%'>
         This app also contains Moment.js, a library for working with dates and React Router v6, which allows users to navigate between application pages.
-        <h4 className='stack-title'>How would I improve (and plan to) improve this project?</h4>
-        <List fontSize='18px'>
-          <ListItem m='.5em 0 0 .75em'>Implement other API's from NASA into this application to make a more complete and interesting application</ListItem>
-        </List>
         <Divider w='100%' m='2em 0 0 0' />
       </Text>
 
