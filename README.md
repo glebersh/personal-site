@@ -1,4 +1,4 @@
-# MY personal site
+# My personal site
 ## Link in bio or [here](https://glebersh.github.io/personal-site/)
 
 ## Tech Stack & Tools
